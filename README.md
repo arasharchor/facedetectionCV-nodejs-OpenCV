@@ -1,18 +1,20 @@
-#Face Detection with Node.js 
+#Face Detection Algorithm with OpenCV and Node.js in Javascripts
 
-A simple application showing how face detection can be implemented using Node.js.
+A simple application for face detection.
 
-Essentially the application tries to mimic (up to a point) the way in which Facebook displays an uploaded photo back to a user with any faces highlighted, in order to prompt them to "tag" people.
+This can be considered a simple way compared with Facebook in displaying an uploaded photo back to a user with the faced detect and asking people to tag them.
 
-Behind the scenes, the application uses the open-source [OpenCV](http://opencv.org/) library, specifically the [Viola-Jones object detection algorithm](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework). In order to run OpenCV from Node.js, it uses the [opencv](https://www.npmjs.com/package/opencv) package.
+This application uses the open-source [OpenCV](http://opencv.org/) library and particularly the [Viola-Jones object detection algorithm](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework). 
 
-This application accompanies a SitePoint tutorial: [Build a Face Detection App Using Nodejs and OpenCV](http://www.sitepoint.com/face-detection-nodejs-opencv)
+TO be able to run OpenCV in Nodejs you should refer to [opencv](https://www.npmjs.com/package/opencv) package.
 
-##Quick Start
+Also in this application a tutorial has been provided: [Build a Face Detection App Using Nodejs and OpenCV](http://www.sitepoint.com/face-detection-nodejs-opencv)
+
+##Quick Start of the algorithm
 
 ```bash
-git clone https://github.com/lukaswhite/face-detection-nodejs .
-cd face-detection-nodejs
+git clone https://github.com/smajida/facedetectionCV-nodejs-OpenCV
+cd facedetectionCV-nodejs-OpenCV
 vagrant up
 vagrant ssh
 cd /vagrant
@@ -20,8 +22,7 @@ npm install
 node index.js 
 ```
 
-Then visit:
-
+Then in webbrowser refer to:
 ```
 http://192.168.10.10:8080/
 ```
